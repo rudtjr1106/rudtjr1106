@@ -45,8 +45,8 @@
 
 | 프로젝트 | 소개 | 기술 | 링크 |
 |:---|:---|:---|:---|
-| **핀업 (PIN-UP)** <br> `2025.08 ~` | 폐쇄형 네트워크 기반 맛집 공유 지도 SNS. <br> **KMP 단일 코드베이스로 Android·iOS 동시 출시·운영 중** — 네이티브 기능(지도·소셜 로그인·FCM) expect/actual 브릿지 직접 구현 | `KMP` `CMP` `Koin` `Ktor` | [GitHub](https://github.com/TEAM-PIN-UP/MOBILE-PIN-UP) · [Play Store](https://play.google.com/store/apps/details?id=com.pinup.placePinup) |
-| **허그 (FOREGG)** <br> `2024.04 ~ 2025.03` | 난임 환자와 가족을 위한 생활 케어 앱. <br> **약 100명 실사용 · 운영 전 기간 크래시 0건** — 구조 설계·공통 View·캘린더·가계부·FCM 알람 | `Clean Architecture` `MVVM` `Hilt` | [GitHub](https://github.com/FOREGG-DEV/FOREGG_Android) · [Play Store](https://play.google.com/store/apps/details?id=com.hugg.presentation) |
+| **핀업 (PIN-UP)** <br> `2025.08 ~` | 폐쇄형 네트워크 기반 맛집 공유 지도 SNS. <br> **KMP 단일 코드베이스로 Android·iOS 동시 출시·운영 중** — 네이티브 기능(지도·소셜 로그인·FCM) expect/actual 브릿지 직접 구현 | `KMP` `CMP` `Koin` `Ktor` | [GitHub](https://github.com/TEAM-PIN-UP/MOBILE-PIN-UP) · [Play Store](https://play.google.com/store/apps/details?id=com.pinup.placePinup&hl=ko) |
+| **허그 (FOREGG)** <br> `2024.04 ~ 2025.03` | 난임 환자와 가족을 위한 생활 케어 앱. <br> **약 100명 실사용 · 운영 전 기간 크래시 0건** — 구조 설계·공통 View·캘린더·가계부·FCM 알람 | `Clean Architecture` `MVVM` `Hilt` | [GitHub](https://github.com/FOREGG-DEV/FOREGG_Android) |
 | **PLUB** <br> `2022.01 ~ 2022.06` | 취미·관심사 기반 소모임 커뮤니티 앱. <br> 총 14인 규모의 첫 대규모 협업 — 메인 홈·검색/북마크·상세·마이페이지 담당 | `Multi-Module` `MVVM` `DataBinding` | [GitHub](https://github.com/PLUB2022/PLUB-Android) |
 | **UMC 운영 앱** <br> `진행 중` | 전국 대학연합 동아리 운영 앱. <br> 중앙 안드로이드 파트장을 겸임하며 직접 개발 | `Multi-Module` `Clean Architecture` | [GitHub](https://github.com/UMC-PRODUCT/umc-product-android) |
 
