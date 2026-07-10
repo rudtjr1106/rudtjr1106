@@ -56,8 +56,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rudtjr1106&show_icons=true&hide_border=true&count_private=true&bg_color=00000000&title_color=34405A&icon_color=6C8EBF" height="160" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudtjr1106&layout=compact&hide_border=true&bg_color=00000000&title_color=34405A" height="160" alt="top languages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudtjr1106&theme=nord_bright" width="820" alt="profile details"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rudtjr1106&theme=nord_bright" width="405" alt="repos per language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rudtjr1106&theme=nord_bright" width="405" alt="most commit language"/>
 
 </div>
 
