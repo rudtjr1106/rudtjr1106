@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="196" viewBox="0 0 880 196" role="img" font-family="'Apple SD Gothic Neo','Pretendard','Noto Sans KR','Malgun Gothic',system-ui,sans-serif">
+  <rect width="880" height="196" rx="28" fill="#E9F3EB"/>
+  <text x="30" y="44" font-size="15" font-weight="700" fill="#0D2015">공개 저장소 10개에 쓴 언어</text>
+  <text x="30" y="62" font-size="12" fill="#456150">GitHub API 기준, 총 3,834 KB</text>
+  <clipPath id="bar"><rect x="30" y="74" width="820" height="22" rx="11"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="30.0" y="74" width="451.3" height="22" fill="#00693C"/>
+    <rect x="480.3" y="74" width="343.1" height="22" fill="#6B4EA8"/>
+    <rect x="822.4" y="74" width="19.4" height="22" fill="#7A5300"/>
+    <rect x="840.9" y="74" width="5.3" height="22" fill="#00796B"/>
+    <rect x="845.2" y="74" width="4.6" height="22" fill="#A03E1E"/>
+    <rect x="848.8" y="74" width="2.2" height="22" fill="#CBE3D3"/>
+  </g>
+  <circle cx="36" cy="129" r="6" fill="#00693C"/>
+  <text x="50" y="134" font-size="14" fill="#0D2015">Kotlin</text>
+  <text x="154" y="134" font-size="13" font-weight="700" fill="#00693C">54.9%</text>
+  <circle cx="309" cy="129" r="6" fill="#6B4EA8"/>
+  <text x="323" y="134" font-size="14" fill="#0D2015">Python</text>
+  <text x="427" y="134" font-size="13" font-weight="700" fill="#6B4EA8">41.7%</text>
+  <circle cx="583" cy="129" r="6" fill="#7A5300"/>
+  <text x="597" y="134" font-size="14" fill="#0D2015">HTML</text>
+  <text x="701" y="134" font-size="13" font-weight="700" fill="#7A5300">2.2%</text>
+  <circle cx="36" cy="159" r="6" fill="#00796B"/>
+  <text x="50" y="164" font-size="14" fill="#0D2015">Shell</text>
+  <text x="154" y="164" font-size="13" font-weight="700" fill="#00796B">0.5%</text>
+  <circle cx="309" cy="159" r="6" fill="#A03E1E"/>
+  <text x="323" y="164" font-size="14" fill="#0D2015">Swift</text>
+  <text x="427" y="164" font-size="13" font-weight="700" fill="#A03E1E">0.4%</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="412" viewBox="0 0 880 412" role="img" font-family="'Apple SD Gothic Neo','Pretendard','Noto Sans KR','Malgun Gothic',system-ui,sans-serif">
+  <rect width="880" height="412" rx="28" fill="#0F2318"/>
+  <text x="26" y="48" font-size="13" fill="#A6C3AE">언어</text>
+  <rect x="134" y="28" width="74" height="30" rx="9" fill="#00532B"/>
+  <text x="171" y="48" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Kotlin</text>
+  <rect x="216" y="28" width="66" height="30" rx="9" fill="#00532B"/>
+  <text x="249" y="48" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Swift</text>
+  <text x="26" y="94" font-size="13" fill="#A6C3AE">UI</text>
+  <rect x="134" y="74" width="139" height="30" rx="9" fill="#4A3579"/>
+  <text x="204" y="94" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Jetpack Compose</text>
+  <rect x="281" y="74" width="183" height="30" rx="9" fill="#4A3579"/>
+  <text x="373" y="94" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Compose Multiplatform</text>
+  <rect x="472" y="74" width="88" height="30" rx="9" fill="#4A3579"/>
+  <text x="516" y="94" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">XML View</text>
+  <text x="26" y="140" font-size="13" fill="#A6C3AE">아키텍처</text>
+  <rect x="134" y="120" width="161" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="215" y="140" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">Clean Architecture</text>
+  <rect x="303" y="120" width="103" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="354" y="140" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">MVVM / MVI</text>
+  <rect x="414" y="120" width="117" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="473" y="140" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">Multi-Module</text>
+  <text x="26" y="186" font-size="13" fill="#A6C3AE">비동기·DI</text>
+  <rect x="134" y="166" width="103" height="30" rx="9" fill="#00532B"/>
+  <text x="185" y="186" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Coroutines</text>
+  <rect x="245" y="166" width="59" height="30" rx="9" fill="#00532B"/>
+  <text x="274" y="186" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Flow</text>
+  <rect x="312" y="166" width="59" height="30" rx="9" fill="#00532B"/>
+  <text x="341" y="186" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Hilt</text>
+  <rect x="379" y="166" width="59" height="30" rx="9" fill="#00532B"/>
+  <text x="409" y="186" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Koin</text>
+  <text x="26" y="232" font-size="13" fill="#A6C3AE">네트워크</text>
+  <rect x="134" y="212" width="88" height="30" rx="9" fill="#4A3579"/>
+  <text x="178" y="232" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Retrofit</text>
+  <rect x="230" y="212" width="74" height="30" rx="9" fill="#4A3579"/>
+  <text x="267" y="232" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">OkHttp</text>
+  <rect x="312" y="212" width="59" height="30" rx="9" fill="#4A3579"/>
+  <text x="341" y="232" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Ktor</text>
+  <rect x="379" y="212" width="81" height="30" rx="9" fill="#4A3579"/>
+  <text x="420" y="232" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Ktorfit</text>
+  <text x="26" y="278" font-size="13" fill="#A6C3AE">온디바이스</text>
+  <rect x="134" y="258" width="117" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="193" y="278" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">ML Kit GenAI</text>
+  <rect x="259" y="258" width="96" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="307" y="278" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">DataStore</text>
+  <rect x="363" y="258" width="139" height="30" rx="9" fill="#6B4E0F"/>
+  <text x="432" y="278" font-size="13" font-weight="600" fill="#FFD489" text-anchor="middle">Security Crypto</text>
+  <text x="26" y="324" font-size="13" fill="#A6C3AE">품질</text>
+  <rect x="134" y="304" width="110" height="30" rx="9" fill="#00532B"/>
+  <text x="189" y="324" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Custom Lint</text>
+  <rect x="252" y="304" width="132" height="30" rx="9" fill="#00532B"/>
+  <text x="318" y="324" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">Macrobenchmark</text>
+  <rect x="392" y="304" width="45" height="30" rx="9" fill="#00532B"/>
+  <text x="414" y="324" font-size="13" font-weight="600" fill="#5CDD95" text-anchor="middle">R8</text>
+  <text x="26" y="370" font-size="13" fill="#A6C3AE">운영·서버</text>
+  <rect x="134" y="350" width="117" height="30" rx="9" fill="#4A3579"/>
+  <text x="193" y="370" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Firebase FCM</text>
+  <rect x="259" y="350" width="132" height="30" rx="9" fill="#4A3579"/>
+  <text x="325" y="370" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">GitHub Actions</text>
+  <rect x="399" y="350" width="110" height="30" rx="9" fill="#4A3579"/>
+  <text x="454" y="370" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">Spring Boot</text>
+  <rect x="517" y="350" width="103" height="30" rx="9" fill="#4A3579"/>
+  <text x="569" y="370" font-size="13" font-weight="600" fill="#D2BBFF" text-anchor="middle">PostgreSQL</text>
+</svg>

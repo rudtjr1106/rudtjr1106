@@ -1,77 +1,82 @@
-<div align="center">
+<p align="center">
+  <img src="assets/hero.svg" width="880" alt="조경석 · Android Engineer · Kotlin, Jetpack Compose, Multiplatform">
+</p>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:34405A,100:6C8EBF&height=210&section=header&text=%EC%A1%B0%EA%B2%BD%EC%84%9D%20%C2%B7%20Android%20Engineer&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Kotlin%20%C2%B7%20Jetpack%20Compose%20%C2%B7%20Kotlin%20Multiplatform&descSize=17&descAlignY=56)
+앱을 만들고, 출시하고, 운영합니다. Kotlin 하나로 Android와 iOS, 서버까지 다룹니다.
+가끔은 바탕화면에 포켓몬을 풀어놓기도 합니다.
 
-### XML View에서 Compose, 그리고 Kotlin Multiplatform까지
-**플랫폼 경계에 갇히지 않고 문제 해결에 집중하는 Android 개발자입니다.**
+## 만든 앱
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/apps-dark.png">
+    <img src="assets/apps-light.png" width="880" alt="핀업, UMC, 허그, 다모임, PLUB">
+  </picture>
+</p>
 
-<br>
+<p align="center">
+  <picture>
+    <source media="(max-width: 560px)" srcset="assets/screens-narrow.png">
+    <img src="assets/screens-wide.png" width="872" alt="핀업 지도, 다모임 홈, 허그 홈, 핀업 아티클 화면">
+  </picture>
+</p>
 
-## 🙋‍♂️ About Me
+- **핀업** — Compose Multiplatform 단일 코드베이스로 Android와 iOS에 동시 출시한 맛집 지도 SNS.
+  [저장소](https://github.com/TEAM-PIN-UP/MOBILE-PIN-UP), [Play Store](https://play.google.com/store/apps/details?id=com.pinup.placePinup)
+- **UMC 운영 앱** — 전국 28개 대학 약 1,000명이 쓰는 동아리 운영 앱. 중앙 안드로이드 파트장을 겸하고 있습니다.
+  [저장소](https://github.com/UMC-PRODUCT/umc-product-android)
+- **허그** — 난임 환자와 가족을 위한 케어 앱. 1년 가까이 운영하면서 크래시 0건.
+  [저장소](https://github.com/FOREGG-DEV/FOREGG_Android)
+- **다모임** — 앱부터 서버까지 혼자 만든 동아리 플랫폼.
+  [클라이언트](https://github.com/rudtjr1106/damoim), [서버](https://github.com/rudtjr1106/damoim-server)
+- **PLUB** — 14명이 함께한 첫 협업 프로젝트.
+  [저장소](https://github.com/PLUB2022/PLUB-Android)
 
-- 📱 기획 → 출시 → 운영까지, **앱의 전체 생명주기를 완주**해 본 개발자입니다
-- 🛡️ 난임 케어 앱 **허그(FOREGG)** 를 약 6개월 운영하며 **전 기간 크래시 0건**을 지켰습니다
-- 🌍 **핀업(PIN-UP)** 을 KMP 단일 코드베이스로 **Android·iOS 동시 출시** — Naver Map·카카오/네이버 로그인·FCM을 `expect/actual`로 직접 브릿지했습니다
-- 🎓 **UMC 중앙 안드로이드 파트장** — 전국 챌린저 워크북을 XML→Compose 중심으로 개편하고 있습니다
-- 🤖 GitHub Actions CI에 **AI를 접목한 PR 리뷰·반복 검증 자동화**로 개발 사이클을 단축합니다
+## 그 외
 
-<br>
+<p align="center">
+  <img src="assets/walkers.svg" width="880" alt="포켓몬 도트들이 걸어다니는 띠">
+</p>
 
-## 🛠 Tech Stack
+- **포스크탑** — 일하는 화면 한켠에서 포켓몬이 걸어다닙니다. 풀숲이 돋아나고, 야생 포켓몬이 나타나고, 잡아서 키웁니다. Windows와 macOS 둘 다.
+  [저장소](https://github.com/rudtjr1106/poketdesktop), [받기](https://github.com/rudtjr1106/poketdesktop/releases/latest)
+- **LanDrop** — 같은 공유기에 있는 내 기기끼리, 서버 없이 파일을 주고받습니다.
+  [저장소](https://github.com/rudtjr1106/LanDrop)
 
-<div align="center">
+> 걷는 도트는 포스크탑이 쓰는 것과 같은 [SpriteCollab](https://github.com/PMDCollab/SpriteCollab) 스프라이트입니다(CC BY-NC 4.0). 포켓몬은 닌텐도 / Game Freak / 포켓몬 컴퍼니의 저작물이고, 포스크탑은 팬이 만든 비상업 프로젝트입니다. [전체 출처](https://github.com/rudtjr1106/poketdesktop/blob/main/CREDITS.md)
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+## 주로 쓰는 것
 
-![Coroutines·Flow](https://img.shields.io/badge/Coroutines%20%C2%B7%20Flow-8A2BE2?style=for-the-badge&logo=kotlin&logoColor=white)
-![Hilt·Koin](https://img.shields.io/badge/Hilt%20%C2%B7%20Koin-34405A?style=for-the-badge)
-![Retrofit·Ktor](https://img.shields.io/badge/Retrofit%20%C2%B7%20Ktor-5C9EFF?style=for-the-badge)
-![Room·DataStore](https://img.shields.io/badge/Room%20%C2%B7%20DataStore-2E7D32?style=for-the-badge)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img src="assets/stack-light.svg" width="880" alt="Kotlin, Swift / Jetpack Compose, Compose Multiplatform, XML View / Clean Architecture, MVVM·MVI, 멀티모듈 / Coroutines, Flow, Hilt, Koin / Retrofit, OkHttp, Ktor, Ktorfit / ML Kit GenAI, DataStore, Security Crypto / Custom Lint, Macrobenchmark, R8 / Firebase FCM, GitHub Actions, Spring Boot, PostgreSQL">
+  </picture>
+</p>
 
-![Firebase](https://img.shields.io/badge/Firebase%20%C2%B7%20FCM-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions%20CI-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+## 기록
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contrib-dark.svg">
+    <img src="assets/contrib-light.svg" width="880" alt="최근 1년 기여도 그래프">
+  </picture>
+</p>
 
-<br>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+    <img src="assets/langs-light.svg" width="880" alt="공개 저장소에 쓴 언어 비중: Kotlin 54.9%, Python 41.7%, HTML 2.2%, Shell 0.5%, Swift 0.4%">
+  </picture>
+</p>
 
-## 📦 Projects
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rudtjr1106&background=0F2318&stroke=38513F&ring=5CDD95&fire=D2BBFF&currStreakNum=DCE9DF&currStreakLabel=A6C3AE&sideNums=DCE9DF&sideLabels=A6C3AE&dates=A6C3AE&hide_border=true&border_radius=28&locale=ko">
+    <img src="https://streak-stats.demolab.com/?user=rudtjr1106&background=E9F3EB&stroke=BCD0C2&ring=00693C&fire=6B4EA8&currStreakNum=0D2015&currStreakLabel=456150&sideNums=0D2015&sideLabels=456150&dates=456150&hide_border=true&border_radius=28&locale=ko" width="495" alt="커밋 연속 기록">
+  </picture>
+</p>
 
-| 프로젝트 | 소개 | 기술 | 링크 |
-|:---|:---|:---|:---|
-| **핀업 (PIN-UP)** <br> `2025.08 ~` | 폐쇄형 네트워크 기반 맛집 공유 지도 SNS. <br> **KMP 단일 코드베이스로 Android·iOS 동시 출시·운영 중** — 네이티브 기능(지도·소셜 로그인·FCM) expect/actual 브릿지 직접 구현 | `KMP` `CMP` `Koin` `Ktor` | [GitHub](https://github.com/TEAM-PIN-UP/MOBILE-PIN-UP) · [Play Store](https://play.google.com/store/apps/details?id=com.pinup.placePinup&hl=ko) |
-| **허그 (FOREGG)** <br> `2024.04 ~ 2025.03` | 난임 환자와 가족을 위한 생활 케어 앱. <br> **약 100명 실사용 · 운영 전 기간 크래시 0건** — 구조 설계·공통 View·캘린더·가계부·FCM 알람 | `Clean Architecture` `MVVM` `Hilt` | [GitHub](https://github.com/FOREGG-DEV/FOREGG_Android) |
-| **PLUB** <br> `2022.01 ~ 2022.06` | 취미·관심사 기반 소모임 커뮤니티 앱. <br> 총 14인 규모의 첫 대규모 협업 — 메인 홈·검색/북마크·상세·마이페이지 담당 | `Multi-Module` `MVVM` `DataBinding` | [GitHub](https://github.com/PLUB2022/PLUB-Android) |
-| **UMC 운영 앱** <br> `진행 중` | 전국 대학연합 동아리 운영 앱. <br> 중앙 안드로이드 파트장을 겸임하며 직접 개발 | `Multi-Module` `Clean Architecture` | [GitHub](https://github.com/UMC-PRODUCT/umc-product-android) |
+## 연락
 
-<br>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudtjr1106&theme=nord_bright" width="820" alt="profile details"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rudtjr1106&theme=nord_bright" width="405" alt="repos per language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rudtjr1106&theme=nord_bright" width="405" alt="most commit language"/>
-
-</div>
-
-<br>
-
-## 📫 Contact
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/rudtjr1206@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:rudtjr1206@naver.com)
-[![GitHub](https://img.shields.io/badge/github.com/rudtjr1106-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudtjr1106)
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:6C8EBF,100:34405A&height=110&section=footer)
-
-</div>
+[rudtjr1206@naver.com](mailto:rudtjr1206@naver.com), [기술 블로그](https://velog.io/@rudtjr1106)

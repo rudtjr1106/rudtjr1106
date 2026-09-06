@@ -1,0 +1,30 @@
+name: 카드 갱신
+
+# 기여도 잔디와 언어 비중은 GitHub에서 값을 읽어 SVG로 그린다.
+# 외부 뱃지 서비스에 의존하지 않는 대신, 주기적으로 다시 그려야 한다.
+on:
+  schedule:
+    - cron: "17 21 * * 0"   # 매주 월요일 06:17 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 카드 다시 그리기
+        run: |
+          python3 assets/_src/gen_contrib.py
+          python3 assets/_src/gen_langs.py
+
+      - name: 바뀐 것만 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-*.svg assets/langs-*.svg
+          git diff --staged --quiet || git commit -m "chore: 기여도·언어 카드 갱신"
+          git push
