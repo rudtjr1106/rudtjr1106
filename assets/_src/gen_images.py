@@ -61,8 +61,11 @@ def cover(img, w, h):
     return img.crop((x, 0, x + w, h))
 
 
-def phone(src_name, label, w=300, h=650, bezel=9, radius=36):
-    shot = cover(Image.open(f"{SRC}/{src_name}").convert("RGB"), w, h)
+def phone(src_name, label, top=0, w=300, h=650, bezel=9, radius=36):
+    """top: pixels to drop from the source first (a device capture's status bar)."""
+    path = src_name if src_name.startswith("/") else f"{SRC}/{src_name}"
+    src = Image.open(path).convert("RGB")
+    shot = cover(src.crop((0, top, src.width, src.height)), w, h)
 
     fw, fh = w + bezel * 2, h + bezel * 2
     frame = Image.new("RGBA", (fw * SS, fh * SS), (0, 0, 0, 0))
@@ -86,9 +89,12 @@ for n in ("pinup", "umc", "hugg", "damoim", "plub"):
     icon(n)
 print("icons done")
 
-SHOTS = [("pinup_map.png", "핀업 지도"), ("damoim_home.png", "다모임 홈"),
-         ("hugg_home.png", "허그 홈"), ("pinup_article.png", "핀업 아티클")]
-FRAMES = [phone(f, n) for f, n in SHOTS]
+# UMC 화면은 포트폴리오 저장소에 올린 캡처를 그대로 쓴다 (개발 서버 QA 계정으로 찍은 화면)
+UMC = "/Users/seok/StudioProjects/portfolio/public/work/umc"
+SHOTS = [("pinup_map.png", "핀업 지도"), (f"{UMC}/home.webp", "UMC 홈", 94),
+         ("damoim_home.png", "다모임 홈"), ("hugg_home.png", "허그 홈"),
+         ("pinup_article.png", "핀업 아티클")]
+FRAMES = [phone(*shot) for shot in SHOTS]
 print("frames done")
 
 
@@ -103,13 +109,18 @@ def strip(frames, cols, out_name, tile_w=200, gap=24):
     H = rows * th + (rows - 1) * gap
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     for i, t in enumerate(tiles):
-        canvas.alpha_composite(t, ((i % cols) * (tile_w + gap), (i // cols) * (th + gap)))
+        row, col = divmod(i, cols)
+        # a short last row sits in the middle instead of hugging the left edge
+        in_row = min(cols, len(tiles) - row * cols)
+        x0 = (cols - in_row) * (tile_w + gap) // 2
+        canvas.alpha_composite(t, (x0 + col * (tile_w + gap), row * (th + gap)))
     canvas.save(f"{OUT}/{out_name}.png")
     return canvas.size
 
 
-print("wide  ", strip(FRAMES, 4, "screens-wide"))
-print("narrow", strip(FRAMES, 2, "screens-narrow"))
+# 5 phones: one row on wide screens (same 872px width as before), 3 + 2 on narrow ones
+print("wide  ", strip(FRAMES, 5, "screens-wide", tile_w=160, gap=18))
+print("narrow", strip(FRAMES, 3, "screens-narrow", tile_w=128, gap=20))
 
 
 def rounded(src_path, out_name, radius=20, max_w=620):

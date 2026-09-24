@@ -23,7 +23,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 560px)" srcset="assets/screens-narrow.png">
-    <img src="assets/screens-wide.png" width="872" alt="핀유트 지도, 다모임 홈, 허그 홈, 핀유트 아티클 화면">
+    <img src="assets/screens-wide.png" width="872" alt="핀유트 지도, UMC 홈, 다모임 홈, 허그 홈, 핀유트 아티클 화면">
   </picture>
 </p>
 
