@@ -15,6 +15,8 @@ python3 gen_langs.py     # 언어 비중             (네트워크 필요)
 
 ## 알아둘 것
 
+- `icon-scoi.png` 는 스코이 저장소(UMCSCOI/Android)의 런처 아이콘 `ic_launcher-playstore.png` 로
+  `gen_images.py` 의 `icon()` 을 한 번 돌려 만든 것입니다. 원본이 이력서 폴더에 없어 `gen_images.py` 는 이 파일을 다시 만들지 않습니다.
 - `icon-*.png` 는 README가 직접 참조하지 않습니다. `gen_apps.py` 가 런처 패널로 합칠 때
   쓰는 중간 산출물이라 지우면 안 됩니다.
 - `gen_images.py` 와 `gen_walkers.py` 는 이 저장소 밖의 원본을 읽습니다. 경로는 각

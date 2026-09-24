@@ -9,10 +9,11 @@ FONT = "/System/Library/Fonts/AppleSDGothicNeo.ttc"
 SS = 2
 
 APPS = [
-    ("pinup",  "핀업",   "Play Store 운영 중"),
+    ("pinup",  "핀유트", "두 스토어 운영 중"),
     ("umc",    "UMC",    "약 1,000명 사용"),
+    ("damoim", "다모임", "앱 + 서버 1인 개발"),
     ("hugg",   "허그",   "크래시 0건"),
-    ("damoim", "다모임", "클라이언트 + 서버"),
+    ("scoi",   "스코이", "100명 이상 체험"),
     ("plub",   "PLUB",   "14인 협업"),
 ]
 
