@@ -47,7 +47,7 @@
 </p>
 
 - **포스크탑** — 일하는 화면 한켠에서 포켓몬이 걸어다닙니다. 풀숲이 돋아나고, 야생 포켓몬이 나타나고, 잡아서 키웁니다. Windows와 macOS 둘 다.
-  지금 138명이 쓰고 있고, 소개 릴스는 조회수 약 2만 회를 넘겼습니다.
+  지금 약 300명이 쓰고 있고, 소개 릴스는 누적 조회수 약 5만 회를 넘겼습니다.
   [저장소](https://github.com/rudtjr1106/poketdesktop), [받기](https://github.com/rudtjr1106/poketdesktop/releases/latest), [자세히](https://gyeongseok.vercel.app/projects/poketdesktop)
 - **스위치보드** — Android 원격 설정을 폼으로 고치면 PR부터 검증, 배포까지 대신 해 주는 macOS·Windows 앱. 안내 문구 초안은 기기 안의 LLM이 씁니다.
   [저장소](https://github.com/rudtjr1106/switchboard), [자세히](https://gyeongseok.vercel.app/projects/switchboard)
