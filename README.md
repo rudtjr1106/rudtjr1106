@@ -53,6 +53,8 @@
   [저장소](https://github.com/rudtjr1106/switchboard), [자세히](https://gyeongseok.vercel.app/projects/switchboard)
 - **LanDrop** — 같은 공유기에 있는 내 기기끼리, 서버 없이 파일을 주고받습니다.
   [저장소](https://github.com/rudtjr1106/LanDrop), [자세히](https://gyeongseok.vercel.app/projects/landrop)
+- **에이블리 마진관리 엑셀** — 에이블리 주문 엑셀을 붙여넣으면 주문별 마진과 주간·월간 마진이 자동으로 계산되는 외주 작업. 매크로 없이 수식만으로 만들었습니다.
+  [자세히](https://gyeongseok.vercel.app/projects/ably-margin)
 
 > 걷는 도트는 포스크탑이 쓰는 것과 같은 [SpriteCollab](https://github.com/PMDCollab/SpriteCollab) 스프라이트입니다(CC BY-NC 4.0). 포켓몬은 닌텐도 / Game Freak / 포켓몬 컴퍼니의 저작물이고, 포스크탑은 팬이 만든 비상업 프로젝트입니다. [전체 출처](https://github.com/rudtjr1106/poketdesktop/blob/main/CREDITS.md)
 
