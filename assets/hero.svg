@@ -36,6 +36,6 @@
   <text x="143" y="278" font-size="13.5" fill="#3DDC84" text-anchor="middle">Play Store 운영 중</text>
   <rect x="236" y="256" width="133" height="34" rx="17" fill="none" stroke="#C9A6FF" stroke-width="1.4" opacity=".8"/>
   <text x="302" y="278" font-size="13.5" fill="#C9A6FF" text-anchor="middle">Android + iOS</text>
-  <rect x="379" y="256" width="128" height="34" rx="17" fill="none" stroke="#FFC24B" stroke-width="1.4" opacity=".8"/>
-  <text x="443" y="278" font-size="13.5" fill="#FFC24B" text-anchor="middle">사용자 1,000+</text>
+  <rect x="379" y="256" width="154" height="34" rx="17" fill="none" stroke="#FFC24B" stroke-width="1.4" opacity=".8"/>
+  <text x="456" y="278" font-size="13.5" fill="#FFC24B" text-anchor="middle">사용자 약 1,000명</text>
 </g></svg>

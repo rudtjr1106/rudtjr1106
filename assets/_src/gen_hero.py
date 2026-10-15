@@ -150,7 +150,7 @@ def build():
 
     x, fs = 60, 13.5
     for label, ink in (("Play Store 운영 중", GREEN), ("Android + iOS", VIOLET),
-                       ("사용자 1,000+", AMBER)):
+                       ("사용자 약 1,000명", AMBER)):
         w = chip_width(label, fs)
         o.append(f'  <rect x="{x:.0f}" y="256" width="{w:.0f}" height="34" rx="17" '
                  f'fill="none" stroke="{ink}" stroke-width="1.4" opacity=".8"/>')
